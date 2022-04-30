@@ -1,0 +1,40 @@
+"*":
+  build:
+    beepWhenDone: true
+    notificationOnRefresh: true
+    refreshOnShowTargetList: true
+    saveOnBuild: true
+  "build-papyrus":
+    skyrimCompilerPath: "C:\\Steam\\SteamLibrary\\steamapps\\common\\SkyrimVR\\Papyrus Compiler\\PapyrusCompiler.exe"
+  core:
+    closeEmptyWindows: false
+    colorProfile: "srgb"
+    disabledPackages: [
+      "build-papyrus"
+      "platformio-ide-terminal"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "atom-light-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 10
+  "exception-reporting":
+    userId: "f48ae130-d40d-4ded-bc2a-553ded41f7b0"
+  "ide-clangd":
+    clangdCommand: "C:\\Program Files\\LLVM\\bin\\clangd.exe"
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "wsl"
+    toggles:
+      autoClose: true
+  "vim-mode-plus":
+    keymapBackslashToInnerCommentOrParagraphWhenToggleLineCommentsIsPending: true
+    keymapYToYankToLastCharacterOfLine: true
+  welcome:
+    showOnStartup: false
+".cpp.source":
+  editor:
+    showInvisibles: true
